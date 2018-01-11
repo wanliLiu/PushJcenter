@@ -1,10 +1,12 @@
 package com.soli.libone.test;
 
+import android.util.Log;
+
 /**
  * Created by soli on 04/01/2018.
  */
 
-public class TestTwo {
+public class TestTwo implements DontObfuscateInterface{
 
     /**
      * http://kvh.io/cn/tags/EmbraceAndroidStudio/
@@ -14,5 +16,6 @@ public class TestTwo {
 
     public void test() {
 
+        Log.e("TestTwo","from libOne");
     }
 }
