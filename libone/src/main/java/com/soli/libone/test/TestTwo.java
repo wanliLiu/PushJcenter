@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by soli on 04/01/2018.
  */
 
-public class TestTwo implements DontObfuscateInterface{
+public class TestTwo {
 
     /**
      * http://kvh.io/cn/tags/EmbraceAndroidStudio/

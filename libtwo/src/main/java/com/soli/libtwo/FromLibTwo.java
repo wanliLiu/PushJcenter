@@ -14,6 +14,9 @@ public class FromLibTwo implements DontObfuscateInterface {
     private TestOne one;
 
     public FromLibTwo() {
+
+        one = new TestOne();
+
         FLog.setLoggingDelegate(new LoggingDelegate() {
             @Override
             public void setMinimumLoggingLevel(int level) {

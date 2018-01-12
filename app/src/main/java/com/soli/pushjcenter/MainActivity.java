@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.soli.libone.test.TestOne;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         LottieAnimationView view = new LottieAnimationView(this);
 
-        TestOne one = new TestOne();
-        one.thisMethodOne();
+//        TestOne one = new TestOne();
+//        one.thisMethodOne();
     }
 }

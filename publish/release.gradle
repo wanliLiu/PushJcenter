@@ -5,4 +5,4 @@ apply from: rootProject.file('publish/android-tasks.gradle')
 apply from: rootProject.file('publish/release-bintray.gradle')
 
 // Upload to Sonatype  先不管 可以从Jcenter同步过去
-//apply from: project.rootProject.file('release-sonatype.gradle')
+apply from: rootProject.file('publish/release-sonatype.gradle')

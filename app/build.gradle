@@ -23,5 +23,12 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
-    implementation 'com.soli.jcenter:libTwo:latest.release'
+//    implementation 'com.soli.jcenter:libone:0.0.5'
+//    implementation 'com.soli.jcenter:libTwo:0.0.5'
+
+//    implementation "com.soli.jcenter:libone:latest.release"
+    implementation "com.soli.jcenter:libTwo:${VERSION_NAME}"
+
+    implementation  "com.umeng.analytics:analytics:latest.release"
+    implementation  "com.tencent.bugly:crashreport:latest.release"
 }

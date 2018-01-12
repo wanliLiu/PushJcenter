@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by soli on 04/01/2018.
  */
 
-public class TestOne {
+public class TestOne implements DontObfuscateInterface{
 
     private final String TAG = "TestOne";
 
