@@ -1,5 +1,6 @@
 // Common Android tasks for all releases that generate Javadocs, sources, etc.
-apply from: rootProject.file('publish/android-tasks.gradle')
+//下面这个就是产生JavadocJar SourcesJar 屏蔽就不产生了
+//apply from: rootProject.file('publish/android-tasks.gradle')
 
 // Upload to Bintray
 apply from: rootProject.file('publish/release-bintray.gradle')
