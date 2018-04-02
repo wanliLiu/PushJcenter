@@ -21,8 +21,8 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':libone')
-    api "com.taihe.music:DMH:1.+"
+    implementation project(':lib:libone')
+    api "com.taihe.music:DMH:+"
 }
 
 apply from: rootProject.file('publish/release.gradle')

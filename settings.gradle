@@ -1,1 +1,3 @@
-include ':app', ':libone', ':libtwo'
+include ':app'
+include ':lib:libone'
+include ':lib:libtwo'
