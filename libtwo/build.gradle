@@ -22,7 +22,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':libone')
-    api "com.taihe.music:DMH:1.+"
+    api "com.taihe.copyright:dmhall:latest.release"
 }
 
 apply from: rootProject.file('publish/release.gradle')
