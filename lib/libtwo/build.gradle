@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName VERSION_NAME
@@ -21,8 +21,8 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':libone')
-    api "com.taihe.music:DMH:1.+"
+    implementation project(':lib:libone')
+    api "com.taihe.copyright:dmhall:latest.release"
 }
 
 apply from: rootProject.file('publish/release.gradle')

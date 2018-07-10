@@ -1,1 +1,4 @@
-include ':app', ':libone', ':libtwo', ':Customlugin'
+include ':app', ':Customlugin'
+include ':lib:libone'
+include ':lib:libtwo'
+
